@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'hacke';
+    src: url('fontes/PlackTheHanet-ER5n.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family:'hacke';
+    color: rgb(226, 226, 102);
+    margin: auto;
+
+}
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: rgb(228, 169, 97);
+    margin: auto;
+}

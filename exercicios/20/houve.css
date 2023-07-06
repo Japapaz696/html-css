@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:hover{
+color: purple;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+div >p{
+    display: none;
+}
+div:hover > p{
+    display: block;
+    color: rgb(197, 3, 3);
+    background-color: aqua;
+}

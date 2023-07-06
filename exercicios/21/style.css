@@ -1,0 +1,19 @@
+@charset "UTF-8";
+h1{
+    /*box-level*/
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    border: 10px solid red;
+   padding: 10px 200px 31px 54px;
+   margin: 22px 13px 22px 6px;
+   outline: 5px dashed purple;
+}
+   
+    
+a{
+    /*inline-level*/
+    border-left: 4px;
+    border-color: blue;
+    border-style: solid;
+}

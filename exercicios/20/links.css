@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: rgba(87, 54, 119, 0.842);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgba(150, 233, 233, 0.801);
+}
+a{
+    color: purple;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:visited{
+    color: rgb(77, 11, 11);
+}
+a:hover{
+    color: aqua;
+    font-size: x-large;
+    text-decoration: underline;
+}

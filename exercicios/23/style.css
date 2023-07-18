@@ -1,1 +1,58 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: dark;
+    min-height: 100vh;
+}
+header{
+    background-color: black;
+    font-style: normal;
+    font-weight: 700px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+header>p{
+    padding-bottom: 50px;
+}
+main{
+    font-family: 'Lobster', cursive;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+}
+section.imagem{
+    background-color: aliceblue;
+    color: white;
+}
+section.texto{
+    background-color: rgb(48, 54, 52);
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

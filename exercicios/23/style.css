@@ -24,11 +24,11 @@ header>h1{
     font-size: 10vw;
 }
 header>p{
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 main{
     font-family: 'Sriracha', cursive;
-    background-image: linear-gradient(to top,rgba(49, 9, 94,rgba(41, 39, 63, 0.651)39, 63),black);
+    background-image: linear-gradient(to top,rgb(241, 243, 128),rgb(42, 83, 4),black);
 }
 
 a{
@@ -50,11 +50,20 @@ section{
 section.imagem{
     background-color: aliceblue;
     color: white;
+    background-attachment: fixed;
 }
 section.texto{
     background-color: rgb(48, 54, 52);
     color: white;
 }
+section#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#img02{
+    background-image: url(imagens/background002.jpg);
+}
+
 footer{
     background-color: black;
     color: white;

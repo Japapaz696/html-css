@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body{
+    background-image: url(imagens/photo-1497250681960-ef046c08a56e.jpg);
+}
+h1{
+    text-align: center;
+    font-family: 'Sriracha', cursive;
+}

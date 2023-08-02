@@ -7,24 +7,28 @@
 </head>
 <body>
     <h1>TESTE</h1>
-    <form action="cadastro.html">
+    <form action="cadastro.html" >
         
             <p>
                 <label for="inome">Nome:</label>
-                <input type="text" name="NOME" id="inome" placeholder="Nome Completo">
+                <input type="text" name="NOME" id="inome" placeholder="Nome Completo" required>
             </p>   
             <p>
                 <label for="imedia">Media</label>
                 <input type="number" name="media" id="imedia" min="0" max="10"
-                placeholder="0 a 10" step="0.1">
+                placeholder="0 a 10" step="0.1"required >
             </p>
             <p>
                 <label for="idata">Data</label>
-                <input type="month" name="data" id="idata">
+                <input type="month" name="data" id="idata"required>
             </p>
             <p>
                 <label for="idia">Dia</label>
-                <input type="date" name="dia" id="idia">
+                <input type="date" name="dia" id="idia" required>
+            </p>
+            <p>
+                <label for="ihora">Hora</label>
+                <input type="time" name="hora" id="ihora"required >
             </p>
             <p>
                 <input type="submit">

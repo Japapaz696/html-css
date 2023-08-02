@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form7</title>
+</head>
+<body>
+    <h1>TESTE</h1>
+    <form action="cadastro.html" method="post">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest">
+                <option value="" selected>---Escolha---</option>
+                <optgroup label="Região Nordeste">
+                    <option value="MG" >Minas Gerais</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Regial Norte">
+                    <option value="MA">Manaus</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+            </select>
+        </p>
+        <label for="iporf">Profissão:<input type="text" name="prof" id="iporf" list="lsprof" placeholder="qual sua profissão"></label>
+        <datalist id="lsprof">
+            
+                <option >Administração</option>
+                <option >Desenvolvimento</option>
+                <option >Professor</option>
+            
+        </datalist>
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Digite alguma coisa..."></textarea>
+        
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Apagar">
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* Estilo para telas */
+header{
+    background-color: rgb(155, 233, 233);
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+}
+header h1 {
+    text-align: center;
+}
+menu li{
+    display: inline-block;
+    background: red;
+    padding: 10px;
+}
+li:hover{
+    background-color: blue;
+    color: blueviolet;
+}

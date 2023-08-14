@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: lightgrey;
@@ -11,14 +12,32 @@ header{
     padding: 10px;
     margin: auto;
 }
-h1{
+header>h1{
     text-align: center;
     padding: 10px;
 }
+span#burguer{
+    background-color: rgb(61, 59, 59);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+span#m:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
+}
+menu>ul{
+    list-style-type: none;
+}
 li{
-    display: inline;
     background-color: gray;
     padding: 8px;
+    text-align: center;
+    border: 1px solid gray;
 }
 li:hover{
     background-color: aliceblue;
@@ -27,9 +46,15 @@ main{
     background-color: rgb(255, 255, 255);
     margin: auto;
     padding: auto;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    min-width: 300px;
-    max-width: 900px;
-
+    width: 90vw;
+}
+article>h2{
+    padding: 10px;
+}
+article>p{
+    padding: 5px;
+    text-align: justify;
+    text-indent: 20px;
 }

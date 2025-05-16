@@ -1,0 +1,141 @@
+@charset "UTF-8" ;
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+}
+body{
+    width: 100vw;
+    background-color: rgb(83, 230, 181);
+}
+#cabeça{
+    box-shadow: -3px 3px 10px 0px;
+    font-size: 17px;
+    height: 216px;
+    background-image: linear-gradient(to bottom , rgb(42, 202, 104) ,rgb(33, 146, 77), rgb(9, 75, 34));
+    width: 100%;
+}
+#titulo{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+}
+#subtitulo{
+    color: white;
+    font-family:"Bebas Neue", sans-serif ;
+}
+#subtitulo > p{
+    text-align: center;
+}
+#menu > ul > li {
+    
+    display: inline;
+    padding: 10px;
+}
+#menu > ul > li >a {
+    font-weight: 540;
+    text-decoration: none;
+    color: rgb(194, 236, 209);
+}
+#menu > ul {
+    padding: 45px; 
+}
+#menu > ul > li > a:hover {
+    padding: 5px;
+    background: rgba(62, 187, 118, 0.76);border-radius: 5px;
+    color: rgb(10, 61, 10);
+}
+
+#conteudo{
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    margin: auto;
+    height: 100%;
+    width: 65%;
+    background: whitesmoke;
+}
+#conteudo > h1{
+    color: rgba(3, 71, 7, 0.952);
+    font-size: 25px;
+    padding: 10px;
+    font-family: android;
+}
+#conteudo > h2{
+    border-radius: 5px;
+    margin: 5px;
+    background-image: linear-gradient(to right, rgba(52, 161, 125, 0.932), rgba(59, 206, 157, 0.795), rgb(252, 250, 250));
+    color: rgba(10, 59, 10, 0.877);
+    font-size: 20px;
+    padding: 5px;
+    font-family: android;
+}
+ p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+ p > a{
+    color:rgba(3, 71, 7, 0.952) ;
+    text-decoration: none;
+    font-weight: bolder;
+    background: rgba(59, 206, 157, 0.589) ;
+}
+
+#imagem1 > picture > img{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+
+#imagem2 > picture > img{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+}
+#imagem3 > img{
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+#video{
+    background: rgb(16, 73, 22) ;
+}
+#video > iframe{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+}
+#extra{
+    box-shadow: 0 0 10px  ;
+    margin: 10px;
+    border-radius: 10px;
+    color: black;
+    background:  rgba(87, 211, 169, 0.76) ;
+}
+#extra > h4{
+    border-radius: 10px 10px 0px 0px ;
+    color: white;
+    padding: 7px;
+    background: rgba(56, 187, 100, 0.897);
+}
+#extra > li{
+    display: inline;
+}
+#extra > #listas{
+    padding-left: 12px;
+   columns: 2;
+}
+#rodape{
+    padding: 0px;
+    background: rgb(16, 73, 22) ;
+}
+#rodape > p{
+    padding: 0px;
+    text-align: center;
+}

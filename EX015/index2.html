@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: antiquewhite;
+            text-align: center;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+        }
+        #d1{
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        #d1:hover{
+            background: black;
+        }
+        #d2{
+            background:  rebeccapurple;          
+        }
+        #d3{
+            background: red;
+        }
+        #d4 > p{
+            display: none;
+        }
+        #d4:hover > p{
+            display:block ;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+    <div id="d4">
+        Passe o MOUSE aqui 
+        <p>Texto Escondido...</p>
+    </div>
+</body>
+</html>

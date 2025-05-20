@@ -1,0 +1,80 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cabeça{
+    background-color: black;
+    color: white; 
+}
+#titulo{
+    text-align: center;
+    height: 200px;
+}
+#titulo>h1{
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Passion One', cursive;
+}
+#titulo > p > a{
+    color: white;
+    text-decoration: none;   
+}
+#titulo > p > a:hover{
+   text-decoration: underline;
+}
+div.poema {
+    height: 380px;
+}
+div.poema > p{
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Sriracha', cursive ;
+    width: 200px;
+}
+div#poema2 {
+    height: 400px;
+    background-image: url(Imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#poema2 > p{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Sriracha', cursive ;
+    width: 200px;
+}
+div#poema3 {
+    height: 400px;
+    background-image: url(Imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+div#poema3 > p{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    font-family: 'Sriracha', cursive ;
+    width: 200px;
+}
+div#rodape{
+    color: white;
+    text-align: center;
+    background: black;
+    height: 30px;
+}
+div#rodape>p{
+    padding-top: 10px;
+}

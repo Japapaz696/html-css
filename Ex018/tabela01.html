@@ -7,27 +7,25 @@
 </head>
 <style>
     table{
+        height: 400px;
         width: 400px;
         border-collapse: collapse;
     }
     td {
         padding: 5px;
        border: 1px solid black;
+       text-align: left;
+       vertical-align: top;
     }
-    td.dado{
-        background: yellow;
-    }
-    tr.linha{
-        background: gray;
-    }
-    td:hover{
-        background: rgb(127, 84, 170);
+    .numero{
+        text-align: right;
+        vertical-align: middle;
     }
 </style>
 <body>
     <h1>Minha Primeira Tabela</h1>
     <table>
-        <tr class="linha">
+        <tr >
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -35,12 +33,12 @@
         <tr>
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
-            <td class="dado">B3</td>
-            <td>C3</td>
+            <td>B3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>

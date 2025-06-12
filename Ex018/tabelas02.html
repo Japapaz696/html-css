@@ -8,6 +8,16 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+        tbody > tr:nth-child(2n){
+            background: lightgray;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background: gray;
+            color: white;
         }
         thead, tfoot{
             background: gray;

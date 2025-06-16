@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes de Iframe</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        iframe{
+            display: block;
+            margin: auto;
+            width: 90vw;
+            height: 250px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça Uma Escolha</h1> 
+    <ul>
+        <li><a href="Paginas-extras/pag001.html" target="frame">Pagina001</a></li>
+        <li><a href="Paginas-extras/pag002.html"target="frame">Pagina002</a></li>
+        <li><a href="Paginas-extras/pag003.html" target="frame">Pagina003</a></li>
+    </ul>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat soluta quas voluptatibus provident distinctio necessitatibus consequuntur cumque, officia laudantium ut unde nihil consectetur doloribus, veritatis voluptate recusandae nobis magni harum?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis maxime distinctio sed repellat id asperiores rerum commodi nobis ab alias animi, quam perferendis recusandae provident eveniet impedit ratione nemo minima.</p>
+
+<iframe src="" frameborder="0" name="frame" srcdoc='
+    <style>
+        h1 {
+             text-align: center;
+            color: #333;
+        }
+        img {
+            display: block;
+            margin: auto:;
+        }
+    </style>
+    <body>
+        <h1>Escolha uma das opções acima</h1>
+        <img src="Imagens/Escolha.PNG" alt="Imagem de escolha">
+    </body>
+'></iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error delectus vel voluptas eius distinctio omnis tenetur quasi consequatur hic animi assumenda eligendi, suscipit minus, esse expedita repellendus consequuntur doloremque ipsum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias beatae natus quam neque non inventore, veritatis ab minus facere aperiam aut saepe earum omnis nesciunt? Omnis accusantium reiciendis perspiciatis? Deleniti.</p>
+    
+    
+</body>
+</html>

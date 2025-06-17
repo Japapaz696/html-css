@@ -1,0 +1,32 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: url(Imagens/pexels-eberhardgross-1624438.jpg)  center no-repeat  ;
+   background-size: cover;
+   background-attachment: fixed;
+}
+#menu{
+    float: right;
+    height: 550px;
+    width: 100px;
+    padding-left: 80px;
+    padding-top: 50px;
+    list-style: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+}
+iframe{
+    display: block;
+    margin: auto;
+    height: 500px;
+    padding-top: 50px;
+}

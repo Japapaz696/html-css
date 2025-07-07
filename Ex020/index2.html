@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="" method="get">
+        <p>
+            <label for="ilogin">Login:</label>
+            <input type="text" name="login" id="ilogin" required maxlength="30" placeholder="Nome Completo" autocomplete="name" >
+        </p>
+        <p>
+            <label for="inota">Nota:</label>
+            <input type="number" name="nota" id="inota" placeholder="Digite sua nota" max="10" min="0" step="0.1" autocomplete="cc-number">
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+            
+        </p>
+    </form>
+</body>
+</html>

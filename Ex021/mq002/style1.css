@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* MIDIAS EM PÉ */
-body, html{
-    background: url(../imagens/cev-landscape.jpg);
+body{
+    background: url(../imagens/cev-portrait.jpg);
 
 }

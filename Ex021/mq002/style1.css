@@ -1,2 +1,5 @@
 @charset "UTF-8";
 /* MIDIAS EM PÉ */
+body, html{
+    background: red;
+}

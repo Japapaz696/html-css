@@ -1,17 +1,26 @@
 @charset "UTF-8";
 /*TODAS AS MIDIAS*/
 @media print {
-    body{
-        background: url(../imagens/back-print.jpg);
+    * {
+        font-family: 'Courier New', Courier, monospace !important;
     }
-    img#phone{display: none;}
-    img#tablet{display: none;}
-    img#print{display: block;}
-    img#pc{display: none;}
-    img#tv{display: none;}
+    main {
+        border: 2px solid black !important;
+    }
+    body {
+        background: url(../imagens/back-print.jpg) !important;
+        background-size: cover !important;
+        background-position: center center !important;
+    }
+    img#phone { display: none !important; }
+    img#tablet { display: none !important; }
+    img#print { display: block !important; }
+    img#pc { display: none !important; }
+    img#tv { display: none !important; }
 }
 
-@media (min-width :600px) and (max-width: 1024px){
+
+@media (min-width :600px) and (max-width: 992px){
     body{
         background: url(../imagens/back-tablet.jpg);
     }
@@ -21,9 +30,11 @@
     img#pc{display: none;}
     img#tv{display: none;}
 }
-@media (min-widht: 1025px){
+@media (min-width: 993px) and (max-width: 1200px) {
     body{
         background: url(../imagens/back-pc.jpg);
+        background-position: center center;
+    background-size:cover ;
     }
     img#phone{display: none;}
     img#tablet{display: none;}
@@ -31,9 +42,11 @@
     img#pc{display: block;}
     img#tv{display: none;}
 }
-@media (min-width:1920) {
+@media (min-width:1200px) {
     body{
         background: url(../imagens/back-tv.jpg);
+        background-position: center center;
+    background-size:cover ;
     }
     img#phone{display: none;}
     img#tablet{display: none;}
